@@ -1,0 +1,100 @@
+.lcw_availability_calendar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.lcw_availability_calendar .calendar  {
+    flex: 1;
+    box-shadow: 0px 4px 40px #0000002e;
+    border-radius: 10px;
+}
+
+.lcw_availability_calendar .calendar .datepicker-inline {
+    width: 100%;
+}
+
+td.old.disabled.day:not(.disabled-date) {
+    background: #bcbcbc!important;
+    color: black!important;
+}
+
+td.disabled.day,td.old.disabled.disabled-date.day.active, td.new.disabled.disabled-date.day.active {
+    background: #dc7f7f!important;
+    color: black!important;
+}
+
+td.active.day {
+    background: #3636ce!important;
+    color: white!important;
+}
+
+.lcw_availability_calendar td.active.day {
+    background: #a3e59e!important;
+    color: black!important;
+}
+
+td.day {
+    background: #d5ffd2!important;
+    color: black!important;
+    border-radius: 0!important;
+}
+
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.lcw_booking_widget {
+    padding: 20px;
+    box-shadow: 0px 4px 40px #0000002e;
+    border-radius: 20px;
+}
+
+.lcw_booking_widget input {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.lcw_bw_top_info {
+    color: black;
+    font-family: inherit;
+    line-height: 2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+button.lcw_form_button {
+    color: #fff;
+    background-color: #337ab7;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 100px;
+    width: 100%;
+}
+
+button.lcw_form_button:hover,
+button.lcw_form_button:focus {
+    background-color: #1d609a;
+}
